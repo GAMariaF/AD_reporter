@@ -1,0 +1,65 @@
+"Experiment Name"	"Analysis Name"	Included	Position	"Sample Name"	"Group"	Resolution	Score	Manual Group	"Status Codes"	"Status Description"	Call
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A1	"NTC"	"Negative"	1	1	0	" "	" "	1
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A2	"Pos"	"Hetero"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A3	"3"	"Homo WT"	0.98	0.98	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A4	"13"	"Homo WT"	0.96	0.96	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A5	"33"	"Homo WT"	0.98	0.98	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A6	"37"	"Homo WT"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A7	"43"	"Homo WT"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FII"	1	A8	"64"	"Homo WT"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A1	"NTC"	"Negative"	0.02	0.02	1	"*"	"Manually edited"	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A2	"Pos"	"Heterozygote (2)"	0.41	0.87	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A3	"3"	"Homo Wild Type"	0.96	0.97	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A4	"13"	"Homo Wild Type"	0.95	0.95	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A5	"33"	"Homo Wild Type"	0.95	0.96	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A6	"37"	"Heterozygote"	0.35	0.83	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A7	"43"	"Homo Wild Type"	0.96	0.97	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for FVL"	1	A8	"64"	"Homo Wild Type"	0.92	0.93	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE C282Y"	1	A3	"13"	"wild type"	0.94	0.96	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE C282Y"	1	A4	"14"	"heterozygote"	0.96	0.97	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE C282Y"	1	A5	"15"	"wild type"	0.97	1	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE C282Y"	1	A6	"16"	"heterozygote"	0.9	0.91	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE C282Y"	1	A7	"32"	"Negative"	1	1	0	" "	" "	1
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C1	"NTC"	"Negative"	0.99	1	1	"*"	"Manually edited"	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C2	"Pos"	"heterozygote"	0.91	0.98	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C3	"13"	"wild type"	0.96	0.99	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C4	"14"	"wild type"	0.95	0.99	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C5	"15"	"wild type"	0.95	0.99	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C6	"16"	"wild type"	0.95	1	0	" "	" "	0
+"2019-05-02 HFE LCT LC480"	"Melt Curve Genotyping for HFE H63D"	1	C7	"32"	"heterozygote"	0.86	0.88	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C1	"NTC"	"Negative"	1	1	0	" "	" "	1
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C2	"Pos"	"Heterozygote"	0.33	1	1	"*"	"Manually edited"	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C3	"1"	"Homo Wild Type"	0.98	0.98	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C4	"2"	"Homo Wild Type"	0.98	0.98	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C5	"3"	"Homo Wild Type"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C6	"4"	"Homo Wild Type"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C7	"5"	"Homo Wild Type"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C7	"6"	"Homo Wild Type"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 2A"	1	C7	"7"	"Homo Wild Type"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D1	"NTC"	"Negative"	1	1	0	" "	" "	1
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D2	"Pos"	"Heterozygote"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D3	"1"	"Homo Wild Type"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D4	"2"	"Homo Wild Type"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D5	"3"	"Homo Wild Type"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D6	"4"	"Heterozygote"	0.99	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D7	"5"	"Homo Wild Type"	0.84	0.84	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D7	"6"	"Homo Wild Type"	0.84	0.84	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD 13"	1	D7	"7"	"Homo Wild Type"	0.84	0.84	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E1	"NTC"	"Negative"	1	1	0	" "	" "	1
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E2	"Pos"	"Heterozygote"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E3	"1"	"Homo Wild Type"	0.98	0.98	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E4	"2"	"Homo Wild Type"	0.98	0.98	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E5	"3"	"Heterozygote"	0.99	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E6	"4"	"Homo Wild Type"	0.96	0.96	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E7	"5"	"Homo Wild Type"	0.98	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E7	"6"	"Homo Wild Type"	0.98	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs67"	1	E7	"7"	"Homo Wild Type"	0.98	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F1	"NTC"	"Negative"	1	1	0	" "	" "	1
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F2	"Pos"	"Heterozygote"	0.94	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F3	"1"	"Homo Wild Type"	0.94	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F4	"2"	"Heterozygote"	0.93	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F5	"3"	"Homo Wild Type"	0.94	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F6	"4"	"Homo Wild Type"	0.94	0.99	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F7	"5"	"Homo Wild Type"	0.94	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F7	"6"	"Homo Wild Type"	0.94	1	0	" "	" "	0
+"2021-02-11 FII-FVL DPD LC480"	"Melt Curve Genotyping for DPD rs56"	1	F7	"7"	"Homo Wild Type"	0.94	1	0	" "	" "	0

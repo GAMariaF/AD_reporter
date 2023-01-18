@@ -1,0 +1,29 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+//
+
+//
+
+mainClassName = "App"
+version = '1.0'
+archivesBaseName = "app"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all:2.5.5'
+}
+
+task fatJar( type: Jar, dependsOn: [':compileJava',':compileGroovy'] ) {
+  manifest {
+    attributes 'Main-Class': mainClassName
+  }
+  from configurations.runtime.asFileTree.files.collect { zipTree(it) }
+  with jar
+}
