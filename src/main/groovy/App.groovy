@@ -396,7 +396,7 @@ def process = {
     // Lag en map bestående av LID + flexlabkode
     def lcmap = readFile.call(lcFile)
     def satsmap = readSats.call(satsFile)
-    // def data = mergeMap.call( lcmap, satsmap , codeList )
+    def data = mergeMap.call( lcmap, satsmap , codeList )
     
     // Combine hemkromresults
     data = mergeHemKro.call(data)
