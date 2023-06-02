@@ -51,7 +51,7 @@ def readSats = { f ->
     def map = [:]
     f.readLines() // Skip if sample_name equals ..
     f.each { it -> 
-        def( sample_number, LID ) = [it.split("\\|")[0], it.split("\\|")[1]]
+        def( sample_number, LID ) = [it.split("\\|")[1], it.split("\\|")[0]]
         map[ sample_number ] = LID
     }
     return map
@@ -382,8 +382,8 @@ def process = {
     
     // Sjekk om dato på sats og resultatfiler er like:
     def lcdate = lcFile.toString() =~ /\\([0-9]*-[0-9]*-[0-9]*)/
-    def lcdateFormatted = lcdate[0][1].substring(2).replace('-', '')
-    def satsdate = satsFile.toString() =~ /\\SATS_([0-9]*)/
+    def lcdateFormatted = lcdate[0][1].replace('-', '')
+    def satsdate = satsFile.toString() =~ /\\BATCH_([0-9]*)/
     def satsdateFormatted = satsdate[0][1]
     
     if (lcdateFormatted != satsdateFormatted) {
@@ -396,7 +396,7 @@ def process = {
     // Lag en map bestående av LID + flexlabkode
     def lcmap = readFile.call(lcFile)
     def satsmap = readSats.call(satsFile)
-    def data = mergeMap.call( lcmap, satsmap , codeList )
+    // def data = mergeMap.call( lcmap, satsmap , codeList )
     
     // Combine hemkromresults
     data = mergeHemKro.call(data)
