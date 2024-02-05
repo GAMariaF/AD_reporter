@@ -176,22 +176,22 @@ def mergeHemKro = { data -> // reiterate data, combine the two hemkroesults
     // case switch to get correct code for hemrk
     outlist.each { entry ->
         switch(entry) { 
-            case {entry["C282Y"] == "wild type" && entry["H63D"] == "wild type"}:
+            case {entry["C282Y"] == "Homo Wild Type" && entry["H63D"] == "Homo Wild Type"}:
                 final_outlist.add( [sample_ID: entry["sample_ID"], LID: entry["LID"], resultat: "GHFE1", analysis: "Hemkro", date: entry["date"] ])
                 break
-            case {entry["C282Y"] == "heterozygote" && entry["H63D"] == "wild type"}:
+            case {entry["C282Y"] == "Heterozygote" && entry["H63D"] == "Homo Wild Type"}:
                 final_outlist.add( [sample_ID: entry["sample_ID"], LID: entry["LID"], resultat: "GHFE2", analysis: "Hemkro", date: entry["date"] ])
                 break
-            case {entry["C282Y"] == "wild type" && entry["H63D"] == "heterozygote"}:
+            case {entry["C282Y"] == "Homo Wild Type" && entry["H63D"] == "Heterozygote"}:
                 final_outlist.add( [sample_ID: entry["sample_ID"], LID: entry["LID"], resultat: "GHFE3", analysis: "Hemkro", date: entry["date"] ])
                 break
-            case {entry["C282Y"] == "heterozygote" && entry["H63D"] == "heterozygote"}:
+            case {entry["C282Y"] == "Heterozygote" && entry["H63D"] == "Heterozygote"}:
                 final_outlist.add( [sample_ID: entry["sample_ID"], LID: entry["LID"], resultat: "GHFE4", analysis: "Hemkro", date: entry["date"] ])
                 break
-            case {entry["C282Y"] == "mutant" && entry["H63D"] == "wild type"}:
+            case {entry["C282Y"] == "Homo Mutated" && entry["H63D"] == "Homo Wild Type"}:
                 final_outlist.add( [sample_ID: entry["sample_ID"], LID: entry["LID"], resultat: "GHFE5", analysis: "Hemkro", date: entry["date"] ])
                 break
-            case {entry["C282Y"] == "wild type" && entry["H63D"] == "mutant"}:
+            case {entry["C282Y"] == "Homo Wild Type" && entry["H63D"] == "Homo Mutated"}:
                 final_outlist.add( [sample_ID: entry["sample_ID"], LID: entry["LID"], resultat: "GHFE6", analysis: "Hemkro", date: entry["date"] ])
                 break
             case {entry["DYPD_2A"] == "Homo Wild Type" && entry["DYPD_13"] == "Homo Wild Type" && entry["DYPD_67"] == "Homo Wild Type" && entry["DYPD_56"] == "Homo Wild Type"}:
